@@ -4,19 +4,20 @@
 > **Date:** 11.01.2021 - 02:59 PM *(Due: 11.01.2020 - 03:00 PM)*
 > **Name:** `xiyu` (X. Y.) & `goto` (Gorgin T.)
 > **Session:** [07 Exercise - Explanations](https://github.com/FUB-HCC/hcds-winter-2020/wiki/07_exercise)   
-----
-
+---
+---
+---
 ## A5 - Explanations
 
-### Task 1: Different Explanation Needs
+>### Task 1: Different Explanation Needs
 > **Goal:** 🥅 &nbsp; Understanding the role-based model by Tomsett et al. and applying it in the context of ORES.
+>
+> During the lecture ([VL6](https://github.com/FUB-HCC/hcds-winter-2020-slides/blob/main/lecture/06_HCDS_Post-hoc_Interpretability.pdf) and [VL7](https://github.com/FUB-HCC/hcds-winter-2020-slides/blob/main/lecture/07_HCDS_Explanation_Interfaces.pdf)) the role-based Model by Tomsett et al. <sup>[1]</sup> for analyzing interpretable ML system was introduced. The authors defined six roles as follows: Creators, Operators, Executors, Decision-subjects, Data-subjects, and Examiners. (🖼️  https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A5_Explanation/role-model.png)
+>
+> 1. Please recap the **six roles** and the **example scenarios** by reading the original paper<sup>[1]</sup>. Please read sections *2. Ecosystem model* and *3. Example scenarios* (pages 9 to 11).
+> 1. Please describe the **roles** and the different **explanation needs** in the context of ORES by writing your own scenario.  (🔲 150 words) **[2 points]** 🔴 🔴 
+> 1. **Reflection:** Please consider yourself as a developer/data scientist using a human-centered design process to develop a new ML system: When would you use this HCI method (role-based model) in your design process and for what reason? (🔲  Illustration + 2-3 sentences) ![](role-model.png) **[2 points]** 🔴 🔴 
 
-During the lecture ([VL6](https://github.com/FUB-HCC/hcds-winter-2020-slides/blob/main/lecture/06_HCDS_Post-hoc_Interpretability.pdf) and [VL7](https://github.com/FUB-HCC/hcds-winter-2020-slides/blob/main/lecture/07_HCDS_Explanation_Interfaces.pdf)) the role-based Model by Tomsett et al. <sup>[1]</sup> for analyzing interpretable ML system was introduced. The authors defined six roles as follows: Creators, Operators, Executors, Decision-subjects, Data-subjects, and Examiners. (🖼️  https://github.com/FUB-HCC/hcds-winter-2020/blob/main/assignments/A5_Explanation/role-model.png)
-
-1. Please recap the **six roles** and the **example scenarios** by reading the original paper<sup>[1]</sup>. Please read sections `2. Ecosystem model` and section `3. Example scenarios` (pages 9 to 11).
-1. Please describe the **roles** and the different **explanation needs** in the context of ORES by writing your own scenario.  (🔲 150 words) **[2 points]** 🔴 🔴 
-1. **Reflection:** Please consider yourself as a developer/data scientist using a human-centered design process to develop a new ML system: When would you use this HCI method (role-based model) in your design process and for what reason? (🔲  Illustration + 2-3 sentences)
-![](role-model.png) **[2 points]** 🔴 🔴 
 
 
 
@@ -28,7 +29,10 @@ _your TEXT here_
 
 _your IMAGE here_
 
-### Task 2: Explanation method: LIME
+</br></br>
+
+---
+> ### Task 2: Explanation method: LIME</br></br>
 > **Goal:** 🥅 &nbsp; Getting familiar with LIME as an explanation method for evaluating classifiers.
 
 LIME was introduced as a model-agnostic and local explanation/interpretability method in the lecture ([VL6](https://github.com/FUB-HCC/hcds-winter-2020-slides/blob/main/lecture/06_HCDS_Post-hoc_Interpretability.pdf)). We will use the tutorial [Basic usage, two class. We explain random forest classifiers.](https://marcotcr.github.io/lime/tutorials/Lime%20-%20basic%20usage%2C%20two%20class%20case.html) provided in the [LIME repository](https://github.com/marcotcr/lime) on GitHub.
